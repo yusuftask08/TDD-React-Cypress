@@ -7,6 +7,7 @@ const Form = () => {
     const [lastname, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [bio, setBio] = useState('');
+
     const formSubmit = (e) => {
         e.preventDefault();
 
@@ -36,7 +37,6 @@ const Form = () => {
                     <p> Output </p>
                     <div>  {output} </div>
                 </div>
-
                 <form onSubmit={formSubmit} className='form-container'>
                     <div>
                         <label data-testid='Firstname'>Firstname</label>
@@ -48,7 +48,6 @@ const Form = () => {
                             onChange={(e) => setFirstName(e.target.value)}
                         />
                     </div>
-
                     <div>
                         <label data-testid='Lastname'>Lastname</label>
                         <input
@@ -59,7 +58,6 @@ const Form = () => {
                             onChange={(e) => setLastName(e.target.value)}
                         />
                     </div>
-
                     <div>
                         <label data-testid='Email'>Email</label>
                         <input
@@ -70,7 +68,6 @@ const Form = () => {
                             onChange={(e) => setEmail(e.target.value)}
                         />
                     </div>
-
                     <div>
                         <label data-testid='Bio'>Bio</label>
                         <input
@@ -86,7 +83,6 @@ const Form = () => {
                     </div>
                 </form>
             </div>
-
         </>
     )
 }

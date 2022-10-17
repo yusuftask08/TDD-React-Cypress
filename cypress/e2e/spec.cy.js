@@ -1,5 +1,4 @@
 describe('user form', () => {
-
   beforeEach(() => {
     cy.viewport(1600, 900);
     cy.visit('http://localhost:3000/')
