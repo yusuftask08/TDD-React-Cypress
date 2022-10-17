@@ -1,0 +1,44 @@
+.form-container {
+	margin-top: 2rem;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.form-container input {
+	width: 100%;
+	height: 2rem;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+	border-radius: 8px;
+}
+
+.form-container label {
+	width: 100%;
+}
+
+.form-container textarea {
+	width: 100%;
+	height: 5rem;
+	resize: none;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+}
+
+button[type='submit'] {
+	border: none;
+	background: #7e7dd6;
+	color: #ffffff;
+	font-weight: 600;
+	width: 8rem;
+	border-radius: 0.2rem;
+	cursor: pointer;
+	font-size: 1rem;
+	padding: 8px;
+}
+
+.form-output {
+	margin-top: 1rem;
+	width: 40rem;
+	font-weight: 600;
+	font-size: 0.8rem;
+}
